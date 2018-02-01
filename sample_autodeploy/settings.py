@@ -25,7 +25,8 @@ SECRET_KEY = '^6f$671=6+@w5!=bjbxtbm7kej^yd-ok1)u@ce97g_1+w3p$y('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'sampleautodeploy-env.cermmifgdh.ap-northeast-2.elasticbeanstalk.com']
 
 
 # Application definition
